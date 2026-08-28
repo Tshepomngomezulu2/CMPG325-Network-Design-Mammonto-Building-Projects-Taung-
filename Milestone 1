@@ -1,1 +1,42 @@
+# CMPG 325 – Milestone 1: Client Design Review
 
+## Project Information
+
+**Project ID:** CMPG325-2026-075  
+**Client ID:** CI-075  
+**Organisation:** Mammonto Building Projects (Taung)  
+**Industry:** Construction  
+
+## Client Requirements
+
+The network is designed for Mammonto Building Projects (Taung), a construction organisation. The assigned IPv4 addressing block is 10.32.0.0/16, and the assigned networking challenge is Wireless LAN integration and coverage.
+
+The building is heritage-listed, therefore no new cabling may be installed through external walls. The network also accommodates the requested eight additional staff members in one department without requiring a complete network redesign.
+
+## Physical Topology
+
+The physical topology consists of an edge router, main switch, access switch, wireless access points, end-user devices and a shared server or service device where required.
+
+## Logical Topology
+
+The logical network is separated into the following VLANs:
+
+| VLAN | Name | Subnet |
+|---|---|---|
+| 10 | ADMIN | 10.32.10.0/24 |
+| 20 | PROJECT | 10.32.20.0/24 |
+| 30 | FINANCE | 10.32.30.0/24 |
+| 40 | STAFF-WIFI | 10.32.40.0/24 |
+| 99 | MANAGEMENT | 10.32.99.0/24 |
+
+## IP Addressing
+
+Each VLAN uses a /24 subnet with the first usable address assigned as the default gateway. The Project/Technical subnet provides sufficient capacity for the requested eight additional staff members.
+
+## Wireless LAN
+
+Wireless LAN integration and coverage is the assigned networking challenge. Wireless access points provide connectivity for staff and mobile devices while taking the heritage-building cabling restriction into consideration.
+
+## Repository
+
+The GitHub repository serves as the working portfolio for the project and contains the Milestone 1 documentation, with the same project continuing through Milestone 2 and the final submission.
