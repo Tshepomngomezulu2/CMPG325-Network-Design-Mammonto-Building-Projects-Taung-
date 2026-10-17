@@ -1,11 +1,11 @@
 mammonto-building-milestone3/
 ├── README.md
-├── topology/
-│   ├── Mammonto_Building_Projects.pkt
+├── Final topology/
+│   ├── Topology_Packet_tracer.pkt
 │   └── README.md
-├── docs/
+├── Technical_Report/
 │   ├── Mammonto_Building_Projects_Technical_Report.docx
 │   └── README.md
 └── video/
-    ├── presentation.docx
+    ├── video.mp4
     └── README.md
